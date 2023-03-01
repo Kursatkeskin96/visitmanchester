@@ -1,0 +1,69 @@
+.food-background-img {
+    background-image:url(../../images/fooddrinks.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+}
+
+.food-suggestion-card1 {
+    color: white;
+    height: 185px;
+    width: 300px;
+    border: 1px solid black;
+    background-image: url(../../images/food1.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+}
+
+.food-suggestion-card2 {
+    height: 185px;
+    width: 300px;
+    border: 1px solid black;
+    color: white;
+    background-image: url(../../images/food2.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+}
+
+
+.food-suggestion-card3 {
+    height: 185px;
+    width: 300px;
+    border: 1px solid black;
+    color: white;
+    background-image: url(../../images/food3.jpg);
+    background-size: 100% 100%;
+}
+
+.food-suggestion-card1 p {
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+.food-suggestion-card2 p {
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+.food-suggestion-card3 p {
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+.foodsgcard-container {
+    text-align: center;
+    text-shadow: 1px 1px 1px black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+    .background-img {
+        background-image:url(../../images/shop.jpg);
+        background-size: 100% 100%;
+        height: 300px;
+    }
+  }
+

@@ -1,0 +1,77 @@
+.background-img {
+    background-image:url(../../images/shop.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+}
+
+.shop-h, .shop-p {
+    text-shadow: 1px 4px 4px black;
+}
+
+.shop-h{
+    margin-top: 100px;
+}
+
+.suggestion-card1 {
+    color: white;
+    height: 185px;
+    width: 300px;
+    border: 1px solid black;
+    background-image: url(../../images/trafford-center.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+}
+
+.suggestion-card2 {
+    height: 185px;
+    width: 300px;
+    border: 1px solid black;
+    color: white;
+    background-image: url(../../images/arndale.jpg);
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+}
+
+
+.suggestion-card3 {
+    height: 185px;
+    width: 300px;
+    border: 1px solid black;
+    color: white;
+    background-image: url(../../images/royal-exchange.jpg);
+    background-size: 100% 100%;
+}
+
+.suggestion-card1 p {
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+.suggestion-card2 p {
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+.suggestion-card3 p {
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+.sgcard-container {
+    text-align: center;
+    text-shadow: 1px 1px 1px black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+    .background-img {
+        background-image:url(../../images/shop.jpg);
+        background-size: 100% 100%;
+        height: 300px;
+    }
+  }
+
